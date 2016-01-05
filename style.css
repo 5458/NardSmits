@@ -1,0 +1,186 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: Arnoldboecklin, fantasy;
+}
+
+#headerFont {
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#smallPadding {
+  padding-top: 2px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #e8e8e8;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom: 30px;
+    height: 232px;
+    font-family: Arial;
+}
+
+.header_background {
+      background-image: url("nav_background.png");
+      height: 262px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-bottom: 20px;
+    margin-right: 91px;
+    margin-left: 91px;
+    opacity: 1;
+}
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav_menu li {
+    min-width: 100px;
+    float: left;
+    margin-right: 91px;
+    margin-left: 91px;
+    text-align: center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover {
+    background-color:aquamarine;
+    -webkit-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.nav_menu a {
+    display: block;
+    width: 120px;
+}
+
+.clear {
+    clear: both;
+}
+
+#welcomeDiv {
+    background-color: #e8e8e8;
+    float: left;
+    width: 650px;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 120px;
+}
+
+#newsLetter {
+    background-color: #e8e8e8;
+    float: right;
+    margin-right: 10px;
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 120px;
+}
+
+#leftDiv {
+    background-color: #e8e8e8;
+    float: left;
+    width: 420px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#leftDiv img {
+    max-height: 150px;
+    max-width: 150px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#rightDiv {
+    background-color: #e8e8e8;
+    float: right;
+    width: 420px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#rightDiv img {
+    max-height: 150px;
+    max-width: 150px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#img1 {
+  background-image: url("Nard.png");
+  width: 420px;
+  height: 400px;
+
+}
+
+#img2 {
+  background-image: url("Groepsfoto.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 420px;
+  height: 400px;
+}
